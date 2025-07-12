@@ -1,0 +1,16 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    // Add "jsx" to specify JSX support
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
